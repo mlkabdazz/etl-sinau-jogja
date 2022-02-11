@@ -104,10 +104,10 @@ public class TwitterProducer {
 
 // These secrets should be read from a config file
         Authentication hosebirdAuth = new OAuth1(
-                "",
-                "",
-                "",
-                "");
+                "1Y6iT1Rk9cpwcG2A4f0nDAs8p",
+                "hzoiCpUFkEcvB6fYFR7WHrCBPmq7ajSZHwcn78YuzYYzBVHOLL",
+                "1190207367528321024-OBlVyPHODrzvb4boJDjZ26oPPndHMa",
+                "u395m9PpgxluKPwn4cm0PJZPf5nL6XMLzd3l9EyPNDZgJ");
 
         ClientBuilder builder = new ClientBuilder()
                 .name("Hosebird-Client-01")                              // optional: mainly for the logs
